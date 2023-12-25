@@ -4,7 +4,7 @@ import os
 
 def openPikminScript():
     directory = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(directory, 'Pikmin.py')
+    path = os.path.join(directory, 'TkinterStuff.py')
     try:
         subprocess.Popen(['python', path])
     except Exception as e:
